@@ -512,7 +512,6 @@ img {
   border-radius: 5px;
   border: 2px solid transparent;
   padding: 15px 20px;
-  color: rgba(36, 42, 69, 0.2);
 }
 .site-footer__input:focus{
   outline: none;
