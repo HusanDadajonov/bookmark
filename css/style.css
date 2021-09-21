@@ -240,11 +240,18 @@ img {
   line-height: 28px;
   letter-spacing: 0.25px;
   color: #fff;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   background: #5267df;
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
   border-radius: 5px;
   padding: 10px 24px;
+  transition: color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease
+}
+.bookmark__link:hover{
+  color: #5267df;
+  background: #fff;
+  border-color: #5267df;
+  box-shadow: none;
 }
 .extension{
   padding-bottom: 230px;
@@ -328,7 +335,7 @@ img {
     bottom: 100px;
 }
 .browsers__link{
-    width: 232px;
+    width: 236px;
     display: block;
     font-style: normal;
     font-weight: 500;
@@ -342,6 +349,197 @@ img {
     border-radius: 5px;
     padding: 10px 35px;
     text-decoration: none;
+    border: 2px solid transparent;
     margin: 0 auto;
     margin-top: 60px;
+    transition: color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.browsers__link:hover{
+  color: #5267df;
+  background: #fff;
+  border-color: #5267df;
+  box-shadow: none;
+}
+.questions {
+  padding-bottom:150px;
+}
+.questions__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #242a45;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+.questions__desc {
+  width: 540px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}
+.questions__list {
+  width: 540px;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+  margin: 0 auto;
+}
+.questions__item {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(223,224,228,0.6);
+  padding-top: 19px;
+  padding-bottom: 13px;font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #242A45;
+  
+}
+.questions__item:nth-child(4){
+  border-bottom: 1px solid rgba(223,224,228,0.6);
+}
+.bx-chevron-down {
+  color:#5267df;
+  font-size: 30px;
+}
+.questions__link{
+  width: 114px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  border: 2px solid transparent;
+  color: #fff;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-top: 54px;
+  transition: color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.questions__link:hover{
+  color: #5267df;
+  background: #fff;
+  border-color: #5267df;
+  box-shadow: none;
+}
+.site-footer {
+  padding-top: 58px;
+  background: #5267df;
+}
+.site-footer__span {
+  width: 1100px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-align: center;
+}
+.site-footer__title {
+  width: 408px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.1px;
+  color: #fff;
+  margin: 24px auto 36px auto;
+}
+.site-footer__form{
+  width: 430px;
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+.site-footer__input{
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 15px 20px;
+  color: rgba(36, 42, 69, 0.2);
+}
+.site-footer__input::placeholder{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: rgba(36, 42, 69, 0.2);
+}
+.site-footer__btn {
+  width: 112px;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #fff;
+  background: #fa5959;
+  border: 2px solid transparent;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+.site-footer__btn:hover{
+  color: #fa5959;
+  background: #fff;
+  border-color: #fa5959;
+}
+.contacts-box{
+  background: #242a45;
+  padding: 30px 0;
+}
+.contacts__list {
+  list-style: none;
+  padding: 0;
+  width: 296px;
+  margin: 0;
+  margin-left:63px;
+}
+.contacts__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
+.icons__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 88px;
+  margin-left: auto;
 }
