@@ -4,12 +4,117 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Bookmark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <section class="hero">
+    <div class="container">
+      <header class="hero__header site-header">
+        <div class="row align-center between">
+          <a class="site-header__logo-link" href="index.html">
+            <img class="site-header__logo-img" src="img/logo.svg" alt="logo-img" width="150" height="25">
+          </a>
+          <nav class="site-header__nav-bar">
+            <ul class="site-header__list row align-center">
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">FEATURES</a>
+              </li>
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">PRICING</a>
+              </li>
+              <li class="site-header__item">
+                <a href="#" class="site-header__link">CONTACT</a>
+              </li>
+              <li class="site-header__item">
+                <button class="site-header__btn">LOGIN</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="mananger row align-center">
+        <div class="col-6">
+          <h2 class="mananger__title">A Simple Bookmark Manager</h2>
+          <p class="mananger__desc">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <ul class="row align-center mananger__btn-list">
+            <li class="mananger__btn-item">
+              <a href="#" class="btn-list__link btn-list--active">Get it on Chrome</a>
+            </li>
+            <li class="mananger__btn-item">
+              <a href="#" class="btn-list__link">Get it on Firefox</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mananger__img-box col-6">
+          <img class="mananger__img" src="img/planshet.svg" alt="planshet-img" width="578" height="385">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <h2 class="features__title">Features</h2>
+      <p class="features__desc">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      <ul class="row align-center between features__list">
+        <li class="features__item features__item--active">
+          <button href="#" class="features__link">Simple Bookmarking</button>
+        </li>
+        <li class="features__item">
+          <button href="#" class="features__link">Speedy Searching</button>
+        </li>
+        <li class="features__item">
+          <button href="#" class="features__link">Easy Sharing</button>
+        </li>
+      </ul>
+      <div class="row align-center between">
+        <div class="features__img-box">
+          <img class="features__img" src="img/planshet2.svg" alt="planshet-img" width="536" height="346">
+        </div>
+        <div>
+          <h2 class="bookmark__title" >Bookmark in one click</h2>
+          <p class="bookmark__desc" >Organize your bookmarks however you like. Our  simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+          <a class="bookmark__link" href="#">More Info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="extension">
+    <header class="extension__header">
+      <div class="container">
+        <h2 class="extension__title">Download the extension</h2>
+        <p class="extension__desc">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </div>
+    </header>
+    <ul class="extension__list browsers row  align-center between">
+      <li class="extension__item">
+        <img class="bowsers__img" src="img/chrome.svg" alt="chrome-img" width="102" height="100">
+        <h2 class="browsers__title">Add to Chrome</h2>
+        <p class="browsers__desc">Minimum version 62</p>
+        <img class="browsers__round-img" src="img/rounds.svg" alt="rounds-img">
+        <a class="browsers__link" href="#">Add & Install Extension</a>        
+      </li>
+      <li class="extension__item">
+        <img class="bowsers__img" src="img/firefox.svg" alt="firefox-img" width="102" height="100">
+        <h2 class="browsers__title">Minimum version 62</h2>
+        <p class="browsers__desc">Minimum version 46</p>
+        <img class="browsers__round-img" src="img/rounds.svg" alt="rounds-img">
+        <a class="browsers__link" href="#">Add & Install Extension</a>
+      </li>
+      <li class="extension__item">
+    
+        <img class="bowsers__img" src="img/opera.svg" alt="opera-img" width="102" height="100">
+        <h2 class="browsers__title">Add to Opera</h2>
+        <p class="browsers__desc">Minimum version 46</p>
+        <img class="browsers__round-img" src="img/rounds.svg" alt="rounds-img">
+        <a class="browsers__link" href="#">Add & Install Extension</a>
+      </li>
+    </ul>
+  </section>
 </body>
 </html>
