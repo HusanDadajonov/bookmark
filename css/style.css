@@ -43,6 +43,7 @@ img {
 .site-header__item {
   margin-left: 45px;
 }
+
 .site-header__link {
   text-decoration: none;
   font-style: normal;
@@ -51,7 +52,10 @@ img {
   line-height: 17px;
   letter-spacing: 1.5px;
   color: #242a45;
-
+  transition: color 0.4s ease;
+}
+.site-header__item:hover .site-header__link{
+  color: #0026ff;
 }
 .site-header__btn {
   font-style: normal;
@@ -110,6 +114,14 @@ img {
 .mananger__btn-item {
   margin-right: 16px;
   list-style: none;
+}
+.mananger__btn-item:nth-child(2) .btn-list__link{
+  transition: color 0.3s ease, background 0.3s ease, opacity 0.3s ease;
+}
+.mananger__btn-item:nth-child(2):hover .btn-list__link{
+  color: #fff;
+  background: #5267df;
+  opacity: 1;
 }
 .btn-list__link {
   display: inline-block;
@@ -189,6 +201,11 @@ img {
   width: 243.33px;
   text-align: center;
   padding-bottom: 20px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+.features__item:hover{
+  border-bottom: 3px solid #fa5959;
 }
 .features__item--active{
   border-bottom: 3px solid #fa5959;
